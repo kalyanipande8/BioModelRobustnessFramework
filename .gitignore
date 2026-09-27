@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+
+# Generated artifacts (regenerate via `python3 run_all.py`); kept out of
+# git to keep the repo small. output/report.md and output/figures/ ARE
+# committed (see exceptions below) since they document the real results.
+data/
+models/
+output/*.csv
+output/*.pkl
